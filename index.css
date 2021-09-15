@@ -1,0 +1,99 @@
+body{
+    margin: 5px;
+    background-color: rgb(238, 218, 255);
+}
+header{
+    height: 200px;
+    background-image: url("imagens/abstratoametista.jpg");
+    background-size: cover;
+    background-color: rgb(36, 21, 34);
+    text-align: center;
+    align-content: center;
+}
+h1{
+    color:rgb(234, 211, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top: 40%;
+    margin: auto;
+}
+#menu{
+    text-align: center;
+    font-size: 21px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    background-color: rgb(55, 4, 121);
+    margin-top: 120px;
+    height: 30px;
+    text-align: center;
+}
+
+#menu ul{
+    list-style: none;
+}
+#menu ul li{
+    display: inline;
+    margin: 5px;
+}
+#menu ul li a{
+    color:rgb(222, 198, 253);
+    text-decoration: none;
+}
+main{
+    background-color: rgb(238, 218, 255);
+    height: 100%;
+    margin: 0px;
+}
+main img{
+    border: solid 7px rgb(97, 9, 148);
+    width: 360px;
+    margin: 35px;
+    float: left;
+    border-radius: 0px;
+}
+main h1{
+    color: rgb(90, 13, 161);
+    text-align: left;
+    max-width: 400px;
+}
+.conteudo{
+    max-width: 1400px;
+}
+footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgb(212, 188, 255);
+}
+footer h3{
+    color: rgb(111, 32, 190);
+    margin: 35px;
+}
+footer h5{
+    color: rgb(147, 97, 194);
+    margin: 35px;
+}
+
+.container{
+    background-color: rgb(238, 218, 255);
+}
+
+.welcome{
+    margin-top: 50px;
+}
+
+#rodape-logo img{
+    width: 30px;
+    margin: 5px;
+}
+
+#rodape-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#copyright p{
+    font-size: small;
+    font-weight: bolder;
+}
